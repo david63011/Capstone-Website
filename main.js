@@ -64,7 +64,7 @@ const teacherData = [
   {
     img: 'chef5.jpg',
     name: 'Jimmy Bannos Jr',
-    Profession: 'Owner and Executive Purple Pig',
+    Profession: 'Owner and Executive Chef Purple Pig',
     Description:
       'Jimmy Bannos Jr. is quickly making something of a name for himself. Jimmy is part of the fourth generation of his family to be bought up on the culinary arts. Most notably, he worked under the tutelage of Mario Batali for three and a half years before establishing himself as the chef/proprietor of The Purple Pig in his hometown Chicago.',
   },
