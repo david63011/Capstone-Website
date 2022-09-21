@@ -10,6 +10,10 @@ Capstone 1 (HTML and CSS)
 
 This is an built as part of Capstone 1 project and the goal is to recreate the Cindy Shin's template
 
+# Live Demo
+
+You can see a live demo of my site at [here](https://david63011.github.io/Capstone-Website/)
+
 👤 **Author1**
 
 GitHub: @david63011
