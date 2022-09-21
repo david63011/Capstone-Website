@@ -632,7 +632,6 @@ section {
   .main-section2 {
     display: none;
   }
-  
   .middle-section-container {
     display: flex;
     flex-direction: column;
