@@ -6,14 +6,17 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .hamburger {
   width: 200px;
   height: 120px;
   position: relative;
   margin: 0 20px;
 }
+
 body {
   margin: 0px;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -40,10 +43,6 @@ section {
   width: 100vw;
   height: auto;
   text-align: center;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
 }
 
 .ham-btn1 {
@@ -146,7 +145,6 @@ body {
 .middle-section-container2-1 {
   padding: 30px;
   margin: 30px;
-
   background: #272a31;
 }
 
@@ -159,7 +157,6 @@ body {
 .middle-section-container2-3 {
   padding: 20px;
   margin: 30px;
-
   background: #272a31;
 }
 
@@ -294,7 +291,6 @@ body {
 
 .nav-container {
   display: flex;
-
   margin-top: 5px;
 }
 
@@ -372,7 +368,6 @@ body {
 .overlaymenu1 li {
   font-size: 1.5rem;
   text-decoration: none;
-  margin: 0.5rem;
   transition: 0.5s ease;
   margin: 2em;
 }
@@ -574,16 +569,14 @@ body {
 
 .aboutchef-img {
   height: 300px;
-  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
-    brightness(97%) contrast(79%);
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   margin-left: 3em;
   vertical-align: middle;
 }
 
 .aboutchef-img2 {
   height: 300px;
-  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
-    brightness(97%) contrast(79%);
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   margin-left: 3em;
 }
 
@@ -604,7 +597,6 @@ body {
 }
 
 .aboutchef {
-  margin-left: -5em;
   color: white;
   z-index: 1000;
   position: absolute;
