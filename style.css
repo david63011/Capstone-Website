@@ -633,7 +633,6 @@ section {
     display: none;
   }
   
-
   .aboutchef-img {
     margin-bottom: 1em;
   }
@@ -661,14 +660,6 @@ section {
 
   .about-lower {
     font-size: 17px;
-  }
-  
-  .photos-about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: contain;
-    flex-direction: column;
   }
 
 }
