@@ -379,7 +379,7 @@ section {
   display: flex;
   flex-direction: row;
   list-style: none;
-margin-right: 3em;
+  margin-right: 3em;
 }
 
 .nav6 {
