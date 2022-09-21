@@ -51,7 +51,6 @@ body {
 
 .main-section {
   background: #fff;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,6 +60,7 @@ body {
 .header {
   background-image: url(eat.jpg);
   height: 6em;
+  margin-bottom: 2em;
 }
 
 .headline {
@@ -79,6 +79,8 @@ body {
   font-weight: 700;
   line-height: 0px;
   font-family: 'Lato', sans-serif;
+  align-items: center;
+  margin-bottom: 0.5em;
 }
 
 .hl3 {
@@ -287,6 +289,7 @@ body {
   display: flex;
   width: 100%;
   margin-top: -10px;
+  margin-bottom: 5em;
 }
 
 .toggler {
@@ -420,6 +423,12 @@ body {
   height: 100%;
   padding: 0 2em;
 }
+.teacher-topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
 
 .teacher-list {
   margin: 40px auto;
@@ -459,6 +468,113 @@ body {
   font-weight: 100;
 }
 
+.about-section-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 0 2em;
+}
+.about-email {
+  margin-top: 1em;
+}
+.para1-about {
+  font-weight: 700;
+  margin-bottom: 1em;
+  width: 50%;
+  margin-top: -1em;
+}
+.about-orange {
+  color: #ec5242;
+  font-size: 18px;
+}
+.about-about-page {
+  margin-top: 1em;
+}
+.about-lower {
+  margin-top: 3em;
+}
+
+.about-discuss {
+  margin-top: 3em;
+  width: 50%;
+}
+
+.about-hr {
+  width: 100%;
+  height: 6px;
+  background-color: #ec5242;
+  border: none;
+}
+
+.ice-img {
+  width: 300px;
+  height: 300px;
+}
+.about-botttom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+.line {
+  width: 5rem;
+  height: 3px;
+  background-color: #ec5242;
+  margin: 1.5rem auto;
+}
+
+.line2 {
+  width: 5rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.aboutchef-img {
+  height: 300px;
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
+    brightness(97%) contrast(79%);
+  margin-left: 3em;
+  vertical-align: middle;
+}
+
+.aboutchef-img2 {
+  height: 300px;
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
+    brightness(97%) contrast(79%);
+  margin-left: 3em;
+}
+
+.photos-about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.more-info-about {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.past-graduates {
+  position: relative;
+  text-align: center;
+}
+.aboutchef {
+  margin-left: -5em;
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  margin-left: 1em;
+}
 @media screen and (min-width: 768px) {
   .header {
     display: none;
@@ -488,5 +604,32 @@ body {
   .middle-section-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .photos-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    flex-direction: column;
+  }
+
+  .aboutchef-img {
+    margin-bottom: 1em;
+  }
+
+  .headline {
+    font-size: 2.1em;
+  }
+
+  .hl2 {
+    font-size: 2.1em;
+  }
+  .para1-about {
+    width: 100%;
+  }
+
+  .about-discuss {
+    width: 100%;
   }
 }
