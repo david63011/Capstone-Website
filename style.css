@@ -633,7 +633,7 @@ section {
     display: none;
   }
   
-  .middle-section-container {
+ .middle-section-container {
     display: flex;
     flex-direction: column;
   }
