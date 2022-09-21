@@ -633,11 +633,6 @@ section {
     display: none;
   }
   
- .middle-section-container {
-    display: flex;
-    flex-direction: column;
-  }
-
   .photos-about {
     display: flex;
     align-items: center;
@@ -665,4 +660,10 @@ section {
   .about-discuss {
     width: 100%;
   }
+
+  .middle-section-container {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
