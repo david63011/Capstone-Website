@@ -6,9 +6,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body {
   margin: 0px;
 }
+
 a {
   color: black;
   text-decoration: none;
@@ -73,6 +75,7 @@ body {
   margin-left: 1em;
   margin-top: 0.5em;
 }
+
 .hl2 {
   color: black;
   font-size: 2.4em;
@@ -95,12 +98,14 @@ body {
   font-weight: 700;
   font-family: 'Lato', sans-serif;
 }
+
 .main-time {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
 .zoom {
   transition: transform 0.2s;
   color: #ec5242;
@@ -127,6 +132,7 @@ body {
   margin-bottom: 2em;
   color: white;
 }
+
 .middle-section-container {
   display: flex;
   flex-direction: row;
@@ -174,6 +180,7 @@ body {
   padding: 5px;
   margin-bottom: 2em;
 }
+
 .para2 {
   background-color: rgb(243, 237, 237);
   border: 1px solid black;
@@ -218,6 +225,7 @@ body {
   background: #272a31;
   border: 1px solid transparent;
 }
+
 .partner-elments {
   display: flex;
   flex-direction: row;
@@ -272,16 +280,19 @@ body {
   align-items: center;
   list-style: none;
 }
+
 .social-icon {
   width: 20px;
   height: 20px;
   margin: 0 10px;
 }
+
 .nav-container {
   display: flex;
 
   margin-top: 5px;
 }
+
 .second-nav {
   height: 80px;
   border-style: outset;
@@ -307,14 +318,17 @@ body {
   width: 100%;
   margin-right: 3em;
 }
+
 .logo-img {
   width: 30px;
   height: 30px;
 }
+
 .ice {
   color: #ec5242;
   margin-left: 2em;
 }
+
 .left-section {
   margin-left: 130px;
   display: flex;
@@ -357,6 +371,7 @@ body {
   transition: 0.5s ease;
   margin: 2em;
 }
+
 .overlaymenu1 li:hover {
   cursor: pointer;
 }
@@ -380,30 +395,38 @@ body {
 .items-port:hover {
   color: #fff;
 }
+
 .items-about:hover {
   color: #fff;
 }
+
 .items-contact:hover {
   color: #fff;
 }
+
 .items-news:hover {
   color: #fff;
 }
+
 .nav1:hover {
   color: #ec5242;
 }
+
 .nav2:hover {
   color: #ec5242;
 }
+
 .nav3:hover {
   color: #ec5242;
 }
+
 .nav4:hover {
   color: #ec5242;
 }
 .nav5:hover {
   color: #ec5242;
 }
+
 .nav6:hover {
   color: #ec5242;
   box-shadow: 0 0 15px 3px #ec5242;
@@ -412,6 +435,7 @@ body {
 .speaker {
   background: #fff;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -423,6 +447,7 @@ body {
   height: 100%;
   padding: 0 2em;
 }
+
 .teacher-topic {
   display: flex;
   align-items: center;
@@ -478,22 +503,27 @@ body {
   height: 100%;
   padding: 0 2em;
 }
+
 .about-email {
   margin-top: 1em;
 }
+
 .para1-about {
   font-weight: 700;
   margin-bottom: 1em;
   width: 50%;
   margin-top: -1em;
 }
+
 .about-orange {
   color: #ec5242;
   font-size: 18px;
 }
+
 .about-about-page {
   margin-top: 1em;
 }
+
 .about-lower {
   margin-top: 3em;
 }
@@ -514,6 +544,7 @@ body {
   width: 300px;
   height: 300px;
 }
+
 .about-botttom-section {
   display: flex;
   flex-direction: column;
@@ -556,14 +587,17 @@ body {
   justify-content: center;
   margin-bottom: 2em;
 }
+
 .more-info-about {
   margin-top: 3em;
   margin-bottom: 3em;
 }
+
 .past-graduates {
   position: relative;
   text-align: center;
 }
+
 .aboutchef {
   margin-left: -5em;
   color: white;
@@ -575,6 +609,7 @@ body {
   font-size: 18px;
   margin-left: 1em;
 }
+
 @media screen and (min-width: 768px) {
   .header {
     display: none;
