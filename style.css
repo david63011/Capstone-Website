@@ -15,7 +15,6 @@
 }
 
 body {
-  margin: 0px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -380,8 +379,7 @@ section {
   display: flex;
   flex-direction: row;
   list-style: none;
-
-  margin-right: 3em;
+margin-right: 3em;
 }
 
 .nav6 {
@@ -423,6 +421,7 @@ section {
 .nav4:hover {
   color: #ec5242;
 }
+
 .nav5:hover {
   color: #ec5242;
 }
@@ -633,6 +632,7 @@ section {
   .main-section2 {
     display: none;
   }
+  
   .middle-section-container {
     display: flex;
     flex-direction: column;
@@ -657,6 +657,7 @@ section {
   .hl2 {
     font-size: 2.1em;
   }
+  
   .para1-about {
     width: 100%;
   }
