@@ -227,6 +227,16 @@ section {
   border: 1px solid transparent;
 }
 
+.partner-section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+  background: #272a31;
+  border: 1px solid transparent;
+}
+
 .partner-elments {
   display: flex;
   flex-direction: row;
@@ -258,6 +268,10 @@ section {
   align-items: center;
   flex-direction: column;
   padding-bottom: 40px;
+}
+
+.footer-heading {
+  margin-top: 2em;
 }
 
 .footer-info {
@@ -322,6 +336,22 @@ section {
 .logo-img {
   width: 30px;
   height: 30px;
+}
+
+.logo-img-footer {
+  width: 200px;
+  height: 200px;
+}
+
+.footer-para1{
+  margin-left: 3em;
+  margin-right: 12em;
+}
+
+.bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .ice {
@@ -618,6 +648,12 @@ section {
   .overlay {
     display: none;
   }
+
+.partner-section2{
+  display: none;
+}
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -660,5 +696,15 @@ section {
 
   .about-lower {
     font-size: 17px;
+  }
+
+  .photos-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  .footer-para1{
+    margin-right: .1px;
   }
 }
