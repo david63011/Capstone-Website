@@ -353,10 +353,7 @@ section {
   margin-left: 10em;
 }
 
-.footer-para1{
-  margin-left: 3em;
-  margin-right: 12em;
-}
+
 
 .bottom-footer {
   display: flex;
@@ -723,6 +720,11 @@ color: #fff;
 
 }
 
+.footer-para1{
+  margin-left: 3em;
+  margin-right: 12em;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -773,9 +775,20 @@ color: #fff;
     justify-content: center;
     margin-bottom: 2em;
   }
-  .footer-para1{
-    margin-right: .1px;
-  }
+  
 
+.logo-img-footer{
+  margin-left: 2em;
+}
+
+.footer-para1 {
+  margin-left: 1em;
+  
+}
+
+.footer-para2 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
 
 }
