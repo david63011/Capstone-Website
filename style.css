@@ -605,14 +605,11 @@ section {
 .aboutchef-img {
   height: 300px;
   filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
-  margin-left: 3em;
-  vertical-align: middle;
 }
 
 .aboutchef-img2 {
   height: 300px;
   filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
-  margin-left: 3em;
 }
 
 .photos-about {
@@ -717,6 +714,20 @@ section {
     margin-left: 3em;
     margin-right: 12em;
   }
+
+.aboutchef-img {
+  height: 300px;
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
+  margin-left: 3em;
+}
+
+.aboutchef-img2 {
+  height: 300px;
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
+  margin-left: 3em;
+}
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -734,8 +745,12 @@ section {
 
   .aboutchef-img {
     margin-bottom: 1em;
+    max-width: 350px;
   }
 
+  .aboutchef-img2 {
+    max-width: 350px;
+  }
   .headline {
     font-size: 2em;
   }
