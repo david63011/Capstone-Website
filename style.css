@@ -479,7 +479,7 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 1060px;
+  max-width: 800px;
   width: 100%;
   height: 100%;
   padding: 0 2em;
@@ -494,7 +494,7 @@ section {
 
 .teacher-list {
   margin: 40px auto;
-  width: 250px;
+  width: 350px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -788,7 +788,8 @@ color: #fff;
 }
 
 .footer-para2 {
-  margin-left: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
  
 
 }
