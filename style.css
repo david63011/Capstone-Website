@@ -602,15 +602,7 @@ section {
   background-color: #ec5242;
 }
 
-.aboutchef-img {
-  height: 300px;
-  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
-}
 
-.aboutchef-img2 {
-  height: 300px;
-  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
-}
 
 .photos-about {
   display: flex;
@@ -746,10 +738,14 @@ section {
   .aboutchef-img {
     margin-bottom: 1em;
     max-width: 350px;
+    filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
+
   }
 
   .aboutchef-img2 {
     max-width: 350px;
+    filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
+
   }
   .headline {
     font-size: 2em;
