@@ -742,14 +742,14 @@ section {
     filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   }
   
-  .headline {
-    font-size: 2em;
-  }
-
   .hl2 {
     font-size: 2em;
   }
-
+  
+  .headline {
+    font-size: 2em;
+  }
+  
   .para1-about {
     width: 100%;
   }
