@@ -604,16 +604,14 @@ section {
 
 .aboutchef-img {
   height: 300px;
-  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
-    brightness(97%) contrast(79%);
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   margin-left: 3em;
   vertical-align: middle;
 }
 
 .aboutchef-img2 {
   height: 300px;
-  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
-    brightness(97%) contrast(79%);
+  filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   margin-left: 3em;
 }
 
@@ -643,6 +641,7 @@ section {
   font-size: 18px;
   margin-left: 1em;
 }
+
 .footer-heading1 {
   margin-top: 2em;
 }
