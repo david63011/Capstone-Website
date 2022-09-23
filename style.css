@@ -738,14 +738,12 @@ section {
   .aboutchef-img {
     margin-bottom: 1em;
     max-width: 350px;
-    filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
-      brightness(97%) contrast(79%);
+    filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   }
 
   .aboutchef-img2 {
     max-width: 350px;
-    filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg)
-      brightness(97%) contrast(79%);
+    filter: invert(17%) sepia(96%) saturate(1393%) hue-rotate(10deg) brightness(97%) contrast(79%);
   }
 
   .para1-about {
